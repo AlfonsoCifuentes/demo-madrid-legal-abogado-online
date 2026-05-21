@@ -1,6 +1,6 @@
 :root {
   --ink: #211d1a;
-  --ink-soft: #6b6257;
+  --ink-soft: #5a5248;
   --sand: #f2ebdf;
   --paper: #fbf8f2;
   --ochre: #b27d32;
@@ -50,8 +50,8 @@ a { color: inherit; }
 
 .brand {
   font-family: 'Alegreya', serif;
-  font-size: 1.5rem;
-  line-height: 1.02;
+  font-size: 1.46rem;
+  line-height: 0.98;
   text-decoration: none;
 }
 
@@ -126,8 +126,9 @@ a { color: inherit; }
 
 .hero-copy h1 {
   margin-top: 1rem;
-  font-size: clamp(2.9rem, 6vw, 5rem);
+  font-size: clamp(2.8rem, 5.8vw, 4.8rem);
   max-width: 11ch;
+  line-height: 0.98;
 }
 
 .intro,
@@ -142,6 +143,7 @@ a { color: inherit; }
 .intro {
   max-width: 56ch;
   margin-top: 1.25rem;
+  font-size: 1.02rem;
 }
 
 .hero-actions {
@@ -172,6 +174,7 @@ a { color: inherit; }
 
 .button-light {
   border-color: var(--line);
+  background: rgba(255, 255, 255, 0.72);
 }
 
 .hero-photo,
@@ -198,7 +201,7 @@ a { color: inherit; }
   display: grid;
   gap: 1rem;
   padding: 1.4rem;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(33, 29, 26, 0.08);
 }
 
